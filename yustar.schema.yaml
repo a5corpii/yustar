@@ -52,9 +52,10 @@ speller:
 
 translator:
   dictionary: yustar
-  enable_completion: true
-  enable_sentence: false
+  enable_completion: true       # 是否開啓候選逐碼補全
+  enable_sentence: false        # 是否開啓整句自動連寫
   enable_encoder: false         # 是否開啓自動造詞
+  enable_user_dict: false       # 是否開啓用戶詞典
   encode_commit_history: false  # 对连续上屏的词自动成词
   max_phrase_length: 4          # 自动成词的最大词长
   disable_user_dict_for_patterns:
